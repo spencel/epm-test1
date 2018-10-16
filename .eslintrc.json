@@ -1,0 +1,21 @@
+{
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "rules": {
+    "no-console": "off",
+    "comma-dangle": "off",
+    "react/jsx-filename-extension": "on",
+    "linebreak-style": ["error", "windows"],
+    "quotes": ["error", "single", { "allowTemplateLiterals": true }],
+    "space-in-parens": ["error","always",{"exceptions":["{}","()"]}]
+  },
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaFeatures": {
+        "jsx": true,
+        "modules": true
+    }
+  }
+}
